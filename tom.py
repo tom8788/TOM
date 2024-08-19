@@ -15,7 +15,6 @@ from pynput import keyboard     #for capturing the UP key
 import readline                 #without this, keys are NOT CAPTURED ON MAC!!!
 import re                       #for splitting IF statements
 import curses                   #for editor
-#import sys                      #for editor - can probably be removed
 
 import constants
 from modules import help,cls,ver,ping,ip,list
