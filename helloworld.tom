@@ -1,0 +1,11 @@
+10 a="Hello world"
+12 c="Syntax error
+15 b=230
+20 print a
+
+//This is a comment line
+
+30 print b
+40 b=120
+50 print b
+60 print c

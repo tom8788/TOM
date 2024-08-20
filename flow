@@ -1,0 +1,9 @@
+main
+if run -> run_program(filename)
+
+run_program
+    open file
+    lines=file.readlines()
+    for line in lines
+        linecount += 1
+        interpret_line

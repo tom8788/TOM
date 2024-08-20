@@ -1,0 +1,20 @@
+a="Hello world"
+//c="Syntax error
+b=230
+
+print a
+wait
+wait 3
+wait a
+//cls
+//This is a comment line
+
+print b
+//b=120
+//print b
+//print c
+print "This is variable b: "+b
+print "End program"
+
+//WOEHOEW!!!
+//Nog eens WOEHOEW!

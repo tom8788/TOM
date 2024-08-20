@@ -1,0 +1,40 @@
+//cls
+print "Give a value of 10 or 20 for var a:" 
+input a
+//aabbbccc
+//Test file to fuck up ith edit
+print "This is e test file"
+wait
+print "Attempting to run function test"
+if a=10
+ten
+endif
+if a=20
+twenty
+endif
+
+//wait for eternity :-)
+wait 3
+print "Thank you for running etest"
+
+//does it work?
+//yes it does!
+//it even works without sys!
+
+function test
+print "This is function test"
+end
+
+function ten
+print "Value was ten"
+end
+
+function twenty
+print "Value was twenty"
+end
+
+//a line
+//a line
+//a line
+//a line
+//a line
