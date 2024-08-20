@@ -2,6 +2,13 @@ import netifaces
 import constants
 
 def ip():
+
+    format_string = "{:<12} {:<15} {:<15} {:<15}"
+
+    #print(f"{interface} - {ip_address} - {netmask} - {gateway_ip}")
+    print(constants.Cwhite + format_string.format("Interface","IP Address","Netmask","Gateway") + constants.Cgreen)
+    print(constants.Cwhite + format_string.format("------------","---------------","---------------","---------------") + constants.Cgreen)
+    
     interfaces = netifaces.interfaces()
 
     for interface in interfaces:
@@ -20,7 +27,4 @@ def ip():
         gateway = gateways.get('default', {}).get(netifaces.AF_INET)
         gateway_ip = gateway[0] if gateway else 'N/A'
 
-        format_string = "{:<10} {:<15} {:<15} {:<15}"
-
-        #print(f"{interface} - {ip_address} - {netmask} - {gateway_ip}")
         print(constants.Cwhite + format_string.format(interface,ip_address,netmask,gateway_ip) + constants.Cgreen)
